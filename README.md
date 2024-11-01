@@ -1,5 +1,8 @@
 # Accounts Data Writer to Excel
 
+## Donate to the author
+0xCEbbc4B9930c97410A2d73C6644315F804568eBd
+
 ## Description
 
 This Python script is designed to read private keys and proxy information from text files and write this data into an Excel spreadsheet. It utilizes the `openpyxl` library to facilitate the interaction with Excel files, making it easy to manage account information.
