@@ -22,5 +22,3 @@ You can install the required library using pip:
 ```bash
 pip install openpyxl
 
-# Donate to the author
-0xCEbbc4B9930c97410A2d73C6644315F804568eBd
