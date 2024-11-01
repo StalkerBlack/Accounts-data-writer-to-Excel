@@ -1,12 +1,12 @@
 from openpyxl import load_workbook
 
 # Path to Excel file and text files
-file_path = r""
-privates_path = r""
-proxies_path = r""
+file_path = r"C:\path\to\your\accounts_data.xlsx"
+privates_path = r"C:\path\to\your\privates.txt"
+proxies_path = r"C:\path\to\your\proxies.txt"
 
 wb = load_workbook(file_path)
-ws = wb["Story Protocol"]
+ws = wb.active
 
 # Reading data from text files
 with open(privates_path, 'r') as file:
